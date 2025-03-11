@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dziwaczne Muzea - Lista</title>
     <style>
-        /* Prosty styl, dostosuj wg potrzeb */
+        /* Podstawowy styl – dostosuj według własnych potrzeb */
         body {
             font-family: Arial, sans-serif;
             max-width: 800px;
@@ -46,11 +46,11 @@
         <p class="loading">Ładowanie treści...</p>
     </div>
 
-    <!-- Załadowanie biblioteki Marked.js z CDN -->
+    <!-- Ładowanie biblioteki Marked.js z CDN -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        // Ścieżka do pliku Markdown (dostosuj, jeśli trzeba)
-        const mdFile = 'lab1/site/index.md';
+        // Ścieżka do pliku Markdown znajdującego się w głównym folderze
+        const mdFile = 'index.md';
 
         fetch(mdFile)
             .then(response => {
@@ -66,8 +66,4 @@
             .catch(error => {
                 console.error('Błąd ładowania pliku Markdown:', error);
                 document.getElementById('content').innerHTML = '<p>Nie udało się załadować treści.</p>';
-            });
-    </script>
-</body>
-
-</html>
+            })
