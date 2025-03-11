@@ -1,8 +1,3 @@
----
-title: Dziwaczne Muzea
-layout: default
----
-
 # Lista Dziwacznych Muzeów
 
 ## [Gießkannenmuseum (Watering Can Museum)](site_museumso/gießkannenmuseum-(watering-can-museum).md)

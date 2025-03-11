@@ -21,7 +21,7 @@ Due to the expansiveness of Stellmacher's collection, banana exhibits are freque
 
 ## Obrazek
 
-![Bananenmuseum](http://theoutlook.com.ua/uploads/user/странные+музеи/1025782_593722730659941_1934016026_o.jpg)
+![Bananenmuseum](https://californiacuriosities.com/wp-content/uploads/2015/06/IMG_5052-1024x768.jpg)
 
 **Strona muzeum:** [https://www.atlasobscura.com/places/bananenmuseum](https://www.atlasobscura.com/places/bananenmuseum)
 
