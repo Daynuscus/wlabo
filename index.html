@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dziwaczne Muzea - Lista</title>
+    <style>
+        /* Prosty styl, dostosuj wg potrzeb */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading {
+            text-align: center;
+            font-size: 1.2em;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content" id="content">
+        <p class="loading">Ładowanie treści...</p>
+    </div>
+
+    <!-- Załadowanie biblioteki Marked.js z CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Ścieżka do pliku Markdown (dostosuj, jeśli trzeba)
+        const mdFile = 'lab1/site/index.md';
+
+        fetch(mdFile)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Błąd sieci: ${response.statusText}`);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                // Konwersja Markdown do HTML
+                document.getElementById('content').innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                console.error('Błąd ładowania pliku Markdown:', error);
+                document.getElementById('content').innerHTML = '<p>Nie udało się załadować treści.</p>';
+            });
+    </script>
+</body>
+
+</html>
