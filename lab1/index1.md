@@ -1,6 +1,6 @@
 # Lista Dziwacznych Muzeów
 
-## [Gießkannenmuseum (Watering Can Museum)](site_museumso/gießkannenmuseum-(watering-can-museum).md)
+## [Gießkannenmuseum (Watering Can Museum)](site_museumso/gießkannenmuseum.md)
 
 An homage to the humble watering can.
 
