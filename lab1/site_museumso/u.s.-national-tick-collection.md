@@ -15,7 +15,7 @@ Ticks are responsible for the spread of a number of diseases such as Rocky Mount
 
 ## Obrazek
 
-![U.S. National Tick Collection]()
+![U.S. National Tick Collection](https://img.atlasobscura.com/I3UgQRGQELUwsbIC4q31E7NGHMuIOyw6PobCH1nKApI/rt:fit/w:600/c:600:400:nowe:0:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9hOTU2/MjFkMDQyYzU4ZWJj/ZjBfcGljNC5qcGc.jpg)
 
 **Strona muzeum:** [https://www.atlasobscura.com/places/us-national-tick-collection](https://img.atlasobscura.com/I3UgQRGQELUwsbIC4q31E7NGHMuIOyw6PobCH1nKApI/rt:fit/w:600/c:600:400:nowe:0:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9hOTU2/MjFkMDQyYzU4ZWJj/ZjBfcGljNC5qcGc.jpg)
 
